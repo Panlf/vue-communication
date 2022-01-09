@@ -1,5 +1,6 @@
 <template>
   <div>
+      <h1>props and emits</h1>
       <my-input @sonAdd="fatherAdd" />
       <my-list :childList="list" />
   </div>
