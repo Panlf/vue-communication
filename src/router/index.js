@@ -39,6 +39,11 @@ const routes = [
     path: '/attrs',
     name: 'Attrs',
     component: () => import('@/views/FatherAndSon/Attrs/Index.vue')
+  },
+  {
+    path: '/ref',
+    name: 'Ref',
+    component: () => import('@/views/FatherAndSon/Ref/Index.vue')
   }
 ]
 
