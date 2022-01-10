@@ -16,11 +16,6 @@ const routes = [
     component: () => import('@/views/FatherAndSon/PropsAndEmits/Index.vue')
   },
   {
-    path: '/eventBus',
-    name: 'EventBus',
-    component: () => import('@/views/Brothers/EventBus/Index.vue')
-  },
-  {
     path: '/callback',
     name: 'CallBack',
     component: () => import('@/views/FatherAndSon/CallBack/Index.vue')
@@ -44,6 +39,14 @@ const routes = [
     path: '/ref',
     name: 'Ref',
     component: () => import('@/views/FatherAndSon/Ref/Index.vue')
+  },{
+    path: '/eventBus',
+    name: 'EventBus',
+    component: () => import('@/views/Brothers/EventBus/Index.vue')
+  },{
+    path: '/emit',
+    name: 'Emit',
+    component: () => import('@/views/Brothers/Emit/Index.vue')
   }
 ]
 
